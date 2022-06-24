@@ -93,7 +93,7 @@ public class cadastro {
 		String livro = "";
 		String autor = "";
 
-		if (identifica.equals("a")) {
+		if (identifica.equals("495857")) {
 			OutputStream os = new FileOutputStream("Cadastro de Livros.txt");
 			Writer wr = new OutputStreamWriter(os);
 			BufferedWriter br = new BufferedWriter(wr);
